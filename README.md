@@ -57,8 +57,8 @@ You will submit a Dockerfile with a README.md file that will contain instruction
 
 ```bash
 ### Clone the repository
-git clone https://github.com/arbielhyn/my-portfolio
-cd git@github.com:arbielhyn/my-portfolio.git
+git clone https://github.com/arbielhyn/my-portfolio.git
+cd my-portfolio
 
 # Build the Docker image
 docker build -t lacanlale_arbie_coding_assignment14 .

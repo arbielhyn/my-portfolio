@@ -1,4 +1,4 @@
-# Getting Started with Create React App
+# My Portfolio
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
@@ -45,27 +45,27 @@ You can learn more in the [Create React App documentation](https://facebook.gith
 
 To learn React, check out the [React documentation](https://reactjs.org/).
 
-### Code Splitting
+## Running the Application with Docker
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+You will submit a Dockerfile with a README.md file that will contain instructions on how to get the web application running at `localhost:5575`.
 
-### Analyzing the Bundle Size
+### Prerequisites
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+- Docker must be installed on your machine. You can download and install Docker from [here](https://www.docker.com/products/docker-desktop).
 
-### Making a Progressive Web App
+### Building and Running the Docker Container
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+```bash
+### Clone the repository
+git clone https://github.com/arbielhyn/my-portfolio
+cd git@github.com:arbielhyn/my-portfolio.git
 
-### Advanced Configuration
+# Build the Docker image
+docker build -t lacanlale_arbie_coding_assignment14 .
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+# Run the Docker container
+docker run -d -p 5575:80 --name lacanlale_arbie_coding_assignment14 lacanlale_arbie_coding_assignment14
 
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-# my-portfolio
+# Open your browser and navigate to
+http://localhost:5575
+```

@@ -1,0 +1,21 @@
+{
+  "files": {
+    "main.css": "/static/css/main.a2190090.css",
+    "main.js": "/static/js/main.d2286f1f.js",
+    "static/media/arkibo.png": "/static/media/arkibo.2d40abceb4cbbc00f287.png",
+    "static/media/arbie.jpeg": "/static/media/arbie.d88e22042ee784c452a1.jpeg",
+    "static/media/Blog.png": "/static/media/Blog.7769ec2b03fdfb70f824.png",
+    "static/media/Weather Forecast.png": "/static/media/Weather Forecast.a24167a91615565e0f4d.png",
+    "static/media/Arbie Lhyn Lacanlale - Resume.pdf": "/static/media/Arbie Lhyn Lacanlale - Resume.13804c41b04b262b4305.pdf",
+    "static/media/Road Closure.png": "/static/media/Road Closure.c5d7597373d6ceaccee3.png",
+    "static/media/blue 2.jpeg": "/static/media/blue 2.a88be5de8c426cfc34af.jpeg",
+    "static/media/red-river-logo.png": "/static/media/red-river-logo.6606e270e09f4cf5aa59.png",
+    "index.html": "/index.html",
+    "main.a2190090.css.map": "/static/css/main.a2190090.css.map",
+    "main.d2286f1f.js.map": "/static/js/main.d2286f1f.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a2190090.css",
+    "static/js/main.d2286f1f.js"
+  ]
+}

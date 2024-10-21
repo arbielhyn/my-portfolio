@@ -46,7 +46,7 @@ body {
 }
 
 .navbar-nav a:hover {
-  color: #8fa0d4;
+  color: #66a7d3;
 }
 
 /* About section styles */
@@ -129,7 +129,7 @@ h3 {
   text-align: left;
 }
 .about-paragraph a {
-  color: #ffffff90; /* Light grey color for links */
+  color: #cadce8; /* Light grey color for links */
   text-decoration: none;
   font-weight: bold;
 }

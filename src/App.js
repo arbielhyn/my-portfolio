@@ -6,7 +6,7 @@ import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import roadClosureImage from "./assets/assets/Road Closure.png";
-import blog from "./assets/assets/Blog.png";
+import clothingBakery from "./assets/assets/ClothingBakery.png";
 import weatherForecast from "./assets/assets/Weather Forecast.png";
 import arkibo from "./assets/assets/arkibo.png";
 
@@ -14,11 +14,10 @@ const App = () => {
   // Dummy projects data
   const projects = [
     {
-      image: blog,
-      title: "Dynamic Blogging Platform",
-      text: "Developed a dynamic blogging platform with PHP, granting users CRUD capabilities for seamless post management. Utilized phpMyAdmin for efficient database storage.",
-      link: "https://example.com/project1",
-      tech: "Tech List: PHP",
+      image: clothingBakery,
+      title: "Clothing Bakery",
+      text: "Update the design of their current website to result in a more functional and organized website",
+      link: "https://clothingbakery.com",
     },
     {
       image: roadClosureImage,

@@ -3,7 +3,7 @@ import { FiUser } from "react-icons/fi"; // Importing the user icon from react-i
 import "../index.css";
 
 // Import assets
-import resumeUrl from "../Arbie Lhyn Lacanlale - Resume.pdf";
+import resumeUrl from "/Users/arbielhyn/Desktop/arbielhyn/Dev Projects/my-portfolio/src/ArbieLacanlale-Resume.pdf";
 import logoUrl from "../red-river-logo.png";
 
 const About = () => {
@@ -36,8 +36,8 @@ const About = () => {
           </p>
         </div>
       </div>
-      <h2 className="about-title">Resources</h2>
-      <div className="about-content">
+
+      {/* <div className="about-content">
         <div className="about-paragraph">
           <h4>
             <img
@@ -65,7 +65,7 @@ const About = () => {
             applications.
           </p>
         </div>
-      </div>
+      </div> */}
     </div>
   );
 };

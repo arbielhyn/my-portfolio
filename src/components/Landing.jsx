@@ -1,7 +1,7 @@
 import React from "react";
 import aboutImage from "../assets/assets/arbie.jpeg"; // Import your image
 import "../index.css"; // Import your custom CSS file
-import resumeUrl from "/Users/arbielhyn/Desktop/arbielhyn/Dev Projects/my-portfolio/src/ArbieLacanlale-Resume.pdf";
+import resumeUrl from "../assets/assets/ArbieLacanlale-Resume.pdf";
 
 const About = () => {
   return (

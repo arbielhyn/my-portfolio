@@ -3,8 +3,6 @@ import { FiUser } from "react-icons/fi"; // Importing the user icon from react-i
 import "../index.css";
 
 // Import assets
-import resumeUrl from "/Users/arbielhyn/Desktop/arbielhyn/Dev Projects/my-portfolio/src/ArbieLacanlale-Resume.pdf";
-import logoUrl from "../red-river-logo.png";
 
 const About = () => {
   return (
@@ -26,13 +24,6 @@ const About = () => {
             places and blending in with the locals. I'm also a big fan of trying
             out new hobbies and diving headfirst into them. Right now, I'm all
             about rock climbing/bouldering.
-          </p>
-          <p>
-            If you want to see my resume, you can find it{" "}
-            <a href={resumeUrl} target="_blank" rel="noopener noreferrer">
-              here
-            </a>
-            .
           </p>
         </div>
       </div>

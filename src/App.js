@@ -2,7 +2,6 @@ import React, { useRef } from "react";
 import Navbar from "./components/Navbar";
 import Landing from "./components/Landing";
 import About from "./components/About";
-import Skills from "./components/Skills";
 import Projects from "./components/Projects";
 import Footer from "./components/Footer";
 import roadClosureImage from "./assets/assets/Road Closure.png";
@@ -44,7 +43,6 @@ const App = () => {
 
   const landingRef = useRef(null);
   const aboutRef = useRef(null);
-  const skillsRef = useRef(null);
   const projectsRef = useRef(null);
   const contactRef = useRef(null);
 
@@ -58,9 +56,6 @@ const App = () => {
       case "about":
         offset = aboutRef.current.offsetTop;
         break;
-      case "skills":
-        offset = skillsRef.current.offsetTop;
-        break;
       case "projects":
         offset = projectsRef.current.offsetTop;
         break;
@@ -71,7 +66,7 @@ const App = () => {
         break;
     }
     window.scrollTo({
-      top: offset - 250, // Adjust offset as needed
+      top: offset - 100, // Adjust offset as needed
       behavior: "smooth",
     });
   };
@@ -88,9 +83,6 @@ const App = () => {
       </div>
       <div ref={aboutRef}>
         <About />
-      </div>
-      <div ref={skillsRef}>
-        <Skills />
       </div>
       <div ref={projectsRef}>
         <Projects projects={projects} />
